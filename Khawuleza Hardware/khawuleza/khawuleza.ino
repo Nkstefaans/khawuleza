@@ -29,8 +29,8 @@ char c;
 
 void setup() {
   //-----------------------------RFID
-  // pinMode(rxpin, INPUT);
-  // pinMode(txpin, OUTPUT);
+  pinMode(rxpin, INPUT_PULLUP);
+  pinMode(txpin, OUTPUT);
   
   RFID_Serial.begin(57600);
   //------------------------------
