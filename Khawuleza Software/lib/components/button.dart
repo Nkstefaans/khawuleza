@@ -20,15 +20,15 @@ class MyButton extends StatelessWidget {
         height: 60,
         margin: const EdgeInsets.symmetric(horizontal: 25),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(50),
-          color: customColor,
+          borderRadius: BorderRadius.circular(5),
+          color: Color.fromARGB(255, 154, 99, 189),
         ),
         child: Center(
           child: Text(
             text,
             style: const TextStyle(
-              color: Colors.black,
-              fontSize: 20,
+              color: Color.fromARGB(255, 0, 0, 0),
+              fontSize: 25,
               fontWeight: FontWeight.bold,
             ),
           ),
